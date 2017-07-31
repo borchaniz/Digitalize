@@ -159,3 +159,31 @@ i.fa.fa-twitter.footi ,i.fa.fa-facebook.footi, i.fa.fa-instagram.footi{
     margin-left: 0px;
     margin-right: 0px;
 }
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+#sign{
+    margin: 30%;
+    margin-top:10%
+}
+@media (max-width: 768px) {
+    #sign{
+        margin: 20%;
+        margin-top:20%;
+    }
+}
+
+.fbutton{
+    margin-bottom: 2%;
+}

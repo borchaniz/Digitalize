@@ -10,3 +10,4 @@ $(window).scroll(function () {
         $('.opaque-navbar').removeClass('semi-opaque');
 
 });
+
