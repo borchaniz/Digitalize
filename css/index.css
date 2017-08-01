@@ -182,6 +182,9 @@ i.fa.fa-twitter.footi ,i.fa.fa-facebook.footi, i.fa.fa-instagram.footi{
         margin: 20%;
         margin-top:20%;
     }
+    .nav>li>a>#signbig{
+    display: none;
+}
 }
 
 .fbutton{
